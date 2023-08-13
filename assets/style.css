@@ -40,6 +40,7 @@ nav .logo {
 nav .logo h1 {
     font-size: 45px;
     background: var(--gradient_2);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -162,6 +163,7 @@ main div.msg-content .msg-box .msg h1 {
     font-weight: 700;
     line-height: 1.15em;
     background: var(--gradient_2);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
